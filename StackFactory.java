@@ -10,22 +10,29 @@
  */
 public class StackFactory {
     
-    //Recibe como parametro el objeto que se desea crear
-    public iStack getStack(String tipoStack,int tamanoVector){
-        
-        switch("tipoStack"){
+    //Recibe como parametro el objeto que se desea crea
+    
+    public iStack getStack(String tipoStack,int tamPila){
+      
+        switch(tipoStack){
+            
             case "PilaVector":
-                return new StackVector(tamanoVector);
+                return new StackVector(tamPila);
+             case "PilaLista":
+                return new StackLista();
+                
+            case "PilaArrayLista":
+                return new StackArrayLista();
+                
+     
                 
                 
             default:
                 return null; 
-        
-        
         }
-        
-        
-              
+               
+       
     }
+    
     
 }

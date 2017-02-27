@@ -10,15 +10,14 @@ public interface iStack {
    
     //Método que hace un pop a la pila 
     public int sacar();
-   /* 
+   
     //Metodo que devuelve el dato que esta en la cima de la pila. 
     public int cima();
-    
+ 
     //Metodo que devuelve el tamano de la pila 
     public int tamanoPila();
-    
-    */
-    
+  
+   
     
     
 }
