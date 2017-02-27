@@ -12,7 +12,7 @@ public class PilaArrayList <T>{
 		//Devuelbe el ultimo dato que esta en la pila
 		public void peck(){
 			T ultimo = miArrayList.get(miArrayList.size()-1);
-			System.out.println("El ultimo valor en la pila es: " + ultimo);
+			System.out.println("El primer valor en la pila es: " + ultimo);
 		}
 		
 		//Elimina el ultimo datoq que se inserto en la pila
