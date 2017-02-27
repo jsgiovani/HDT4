@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class Stackk <T>{
+public class PilaArrayList <T>{
 	
 		T dato;
 		
@@ -19,9 +19,9 @@ public class Stackk <T>{
 		public void pop(){
 			miArrayList.remove(miArrayList.size());
 		}
-		//Devuelbe el tamaño de la lista
+		//Devuelbe el tamaÃ±o de la lista
 		public void zice(){
-			System.out.println("El tamaño de la pila es: " +  miArrayList.size());
+			System.out.println("El tamaÃ±o de la pila es: " +  miArrayList.size());
 		}
 		//Devuelbe el primero en la lista
 		public void firstAbove(){
@@ -32,5 +32,3 @@ public class Stackk <T>{
 		
 	
 	}
-
-
